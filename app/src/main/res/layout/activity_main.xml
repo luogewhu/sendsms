@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_horizontal">
+
+    <Button
+        android:id="@+id/api"
+        android:layout_height="wrap_content"
+        android:layout_width="200dp"
+        android:text="调用API发送短信"
+        />
+    <Button
+        android:id="@+id/sms"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="通过反射发送短信" />
+
+    <Button
+        android:id="@+id/binder"
+        android:layout_height="wrap_content"
+        android:layout_width="200dp"
+        android:text="获取Binder发送短信"
+        />
+    <Button
+        android:id="@+id/java"
+        android:layout_height="wrap_content"
+        android:layout_width="200dp"
+        android:text="通过JAVA反射发送短信"
+        />
+
+</LinearLayout>
+
+
+
